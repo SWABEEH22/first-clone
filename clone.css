@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 780vh;
+}
+nav{
+display: flex ;
+align-items: center;
+justify-content: space-around;
+background-color: white;
+padding: 10px;
+}
+.urbanic {
+    font-size: 35px;
+    font-family: "Playfair Display", system-ui;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.listitems {
+display: inline;
+margin-left: 30px;
+
+
+}
+.links {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Montserrat", system-ui;
+    color: black;
+    font-weight: 600;
+}
+.icons {
+    margin-left: 10px;
+    
+}
+.homeimg {
+    width: 100%;
+    height: 860px;
+}
+
+.joy{
+    position: relative;
+    margin-top: -250px;
+    text-align: center;
+    font-size: 90px;
+    font-family:"Montserrat", system-ui;
+    font-weight: 400;
+    color: white;
+    
+}
+.discover {
+    margin-left: 650px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.staples {
+    text-align: center;
+    margin-top: 160px;
+    font-family: "Montserrat", system-ui;
+    font-size: 60px;
+    font-weight: 400;
+}
+.second{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    
+}
+.secondimg{
+    height: 50px;
+    width:500px;
+}
+.finds {
+
+    position: absolute;
+    font-family: "Montserrat", system-ui;
+    margin-top: 600px;
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 550px;
+
+}
+.third {
+    width: 100%;
+    height: 850px;
+}
+.dresses{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 100px;
+    color: white;
+    font-weight: 500;
+    font-family: "Montserrat", system-ui;;
+    
+}
+.denim{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 525px;
+    color: white;
+    font-weight: 500;
+    font-family: "Montserrat", system-ui;;
+    
+}
+.tops{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 900px;
+    color: white;
+    font-weight: 500;
+    font-family: "Montserrat", system-ui;;
+    
+}
+.pants{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 1300px;
+    color: white;
+    font-weight: 500;
+    font-family: "Montserrat", system-ui;;
+    
+}
+.shopnow {
+    margin-left: 650px;
+    margin-top: -90px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.shopnow {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 670px;
+    border: 1px solid;
+    background-color: white;
+       
+}
+.shopnowlink {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.everyonehasit {
+    position: absolute;
+    font-family: "Montserrat", system-ui;
+    margin-top: 70px;
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 470px;
+
+}
+.forth {
+    width: 100%;
+    height: 600px;
+}
+.viewmore {
+    margin-top: -90px;
+    margin-left: 670px;
+    position: absolute;
+    border: 1px solid;
+    background-color: white;
+    
+}
+.viewmorelink {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.cartcontainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.cartimg {
+    height: 400px;
+}
+.shirttext {
+    margin-left: 140px;
+    font-family:  "Montserrat", system-ui;
+    font-weight: 500;
+    font-size: smaller;
+
+}
+.tshirttext{
+    margin-left: 530px;
+    margin-top: -10px;
+    font-family:  "Montserrat", system-ui;
+    font-weight: 500;
+    font-size: smaller;
+
+}
+.churidarpants{
+    margin-left: 950px;
+    margin-top: -15px;
+    font-family:  "Montserrat", system-ui;
+    font-weight: 500;
+    font-size: smaller;
+
+}
+.denimpants{
+    margin-left: 1320px;
+    margin-top: -20px;
+    font-family:  "Montserrat", system-ui;
+    font-weight: 500;
+    font-size: smaller;
+
+}
+.denimcompanion{
+    position: absolute;
+    font-family: "Montserrat", system-ui;
+    margin-top: 70px;
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 470px;
+}
+.denimhead {
+    width: 100%;
+    height: 150px;
+}
+.fifth {
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+.denimtext {
+    margin-top: -80px;
+    margin-left: 630px;
+    border: 1px;
+    background-color: white;
+    position: absolute;
+}
+.denimlink {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 25px;               
+
+}
+.sixsth {
+    width: 100%;
+    height: 830px;
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footerhead{
+    position: absolute;
+    font-family: "Montserrat", system-ui;
+    font-weight: 700;
+    font-size: medium;
+    margin-top: 20px;
+}
+#paragraph {
+    margin-top: 70px;
+}
+p {
+    margin-top: 5px;
+}
+.logofooter {
+    width: 100%;
+
+}
+.instalogo {
+    margin-top: 60px;
+    margin-left: 670px;
+    font-size: 40px;
+}
+.twitterlogo {
+    margin-top: 60px;
+    font-size: 40px;
+}
+.facebooklogo {
+    margin-top: 60px;
+    font-size: 40px;
+}
+i {
+    margin-left: 15px;
+}
+.playstore{
+    margin-left: 620px; 
+    margin-top: 10px;
+}
+.appstore {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.urbanicendtext{
+    font-size: 35px;
+    font-family: "Playfair Display", system-ui;
+    font-weight: 700;
+    margin-left: 680px;
+    margin-top: 25px;
+
+}
+footer{
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.mastercard{
+    margin-left: 530px;
+    margin-top: 20px;
+}
+.smalllogo {
+    margin-left: 10px;
+}
+
+
+
+
+
